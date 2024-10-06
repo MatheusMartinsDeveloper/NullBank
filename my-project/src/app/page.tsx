@@ -1,11 +1,13 @@
 import SectionHero from "./components/SectionHero";
-import SectionAdvantages from "./components/SectionAdvantages";
+import SectionCard from "./components/SectionCard";
+import SectionApp from "./components/SectionApp";
 
 export default function Home() {
   return (
     <main className="w-full">
       <SectionHero />
-      <SectionAdvantages />
+      <SectionCard />
+      <SectionApp />
     </main>
   );
 }
