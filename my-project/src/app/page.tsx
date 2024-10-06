@@ -1,6 +1,7 @@
 import SectionHero from "./components/SectionHero";
 import SectionCard from "./components/SectionCard";
 import SectionApp from "./components/SectionApp";
+import SectionAdvantages from "./components/SectionAdvantages";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <SectionHero />
       <SectionCard />
       <SectionApp />
+      <SectionAdvantages />
     </main>
   );
 }

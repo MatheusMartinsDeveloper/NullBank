@@ -2,3 +2,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card-advantages-after::after {
+    content: '';
+    position: absolute;
+    top: -25%;
+    right: 10%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background: #3B5BDB;
+    width: 3em;
+    height: 3em;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-advantages-after:hover::after {
+    top: 0;
+    transition: all 0.5s ease-in-out;
+}
