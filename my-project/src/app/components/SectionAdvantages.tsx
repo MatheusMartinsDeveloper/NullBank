@@ -8,7 +8,7 @@ import { FaUserTie } from "react-icons/fa";
 
 export default function SectionAdvantages() {
     return (
-        <section className="relative flex justify-around bg-backgroundColor w-full h-[90vh]">
+        <section className="relative flex justify-around bg-backgroundColor w-full h-[95vh]">
             <div className="flex flex-col gap-10">
                 <div>
                     <span className="text-primaryColorMain text-base font-Poppins font-bold tracking-widest">vantagens</span>

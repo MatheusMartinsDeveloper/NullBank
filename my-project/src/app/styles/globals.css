@@ -20,3 +20,15 @@
     top: 0;
     transition: all 0.5s ease-in-out;
 }
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    color: #F8F9FA;
+}
+
+.swiper-button-prev {
+    margin-left: 20%;
+}
+
+.swiper-button-next {
+    margin-right: 20%;
+}

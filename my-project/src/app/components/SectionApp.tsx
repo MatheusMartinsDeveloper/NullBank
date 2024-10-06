@@ -7,7 +7,7 @@ import CardSectionApp from "./CardSectionApp";
 
 export default function SectionApp() {
     return (
-        <section className="flex justify-around items-center bg-backgroundColor w-full h-[90vh]">
+        <section className="flex justify-around items-center bg-backgroundColor w-full h-[95vh]">
             <div className="relative">
                 <Image className="z-0" src={PhoneApp} alt="Imagem Celular" quality={100} />
                 <div className="flex justify-center items-center absolute top-44 -left-10 bg-primaryColorLight rounded-2xl w-[30%] h-[13%]">
