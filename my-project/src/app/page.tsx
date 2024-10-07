@@ -4,6 +4,7 @@ import SectionApp from "./components/SectionApp";
 import SectionAdvantages from "./components/SectionAdvantages";
 import SectionReviews from "./components/SectionReviews";
 import SectionDownload from "./components/SectionDownload";
+import SectionFAQ from "./components/SectionFAQ";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <SectionAdvantages />
       <SectionReviews />
       <SectionDownload />
+      <SectionFAQ />
     </main>
   );
 }
