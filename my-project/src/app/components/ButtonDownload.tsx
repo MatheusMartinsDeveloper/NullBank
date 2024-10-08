@@ -2,19 +2,21 @@ import Link from "next/link";
 
 type ButtonDownloadProps = {
     content: string,
-    className: string,
+    classNameLink: string,
+    classNameSpan: string,
+    classNameSpanDown: string,
     icon: React.ReactNode
 }
 
-export default function ButtonDownload({ content, className, icon }: ButtonDownloadProps) {
+export default function ButtonDownload({ content, classNameLink, classNameSpan, classNameSpanDown, icon }: ButtonDownloadProps) {
     return (
-        <Link className={className} href={`#`}>
+        <Link className={classNameLink} href={`#`}>
             <div>
                 {icon}
             </div>
             <div className="flex flex-col">
-                <span className="text-grayColorLight text-xs font-Poppins font-medium">Download via</span>
-                <span className="text-grayColorLight text-base font-Poppins font-semibold">{content}</span>
+                <span className={classNameSpan}>Download via</span>
+                <span className={classNameSpanDown}>{content}</span>
             </div>
         </Link>
     );

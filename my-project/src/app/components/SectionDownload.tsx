@@ -18,12 +18,16 @@ export default function SectionDownload() {
                 </div>
                 <div className="flex justify-start items-center gap-5 w-[80%]">
                     <ButtonDownload
-                        className="flex justify-center items-center gap-2 bg-gradient rounded-md w-full h-[4em] delay-75 transition-all hover:scale-110" 
+                        classNameLink="flex justify-center items-center gap-2 bg-gradient rounded-md w-full h-[4em] delay-75 transition-all hover:scale-110" 
+                        classNameSpan="text-grayColorLight text-xs font-Poppins font-medium"
+                        classNameSpanDown="text-grayColorLight text-base font-Poppins font-semibold"
                         icon={<FaApple size={25} className="text-grayColorLight" />} 
                         content="Apple Store" 
                     />
                     <ButtonDownload 
-                        className="flex justify-center items-center gap-2 bg-gradient rounded-md w-full h-[4em] delay-75 transition-all hover:scale-110"
+                        classNameLink="flex justify-center items-center gap-2 bg-gradient rounded-md w-full h-[4em] delay-75 transition-all hover:scale-110"
+                        classNameSpan="text-grayColorLight text-xs font-Poppins font-medium"
+                        classNameSpanDown="text-grayColorLight text-base font-Poppins font-semibold"
                         icon={<FaGooglePlay size={25} className="text-grayColorLight" />} 
                         content="Play Store" 
                     />
