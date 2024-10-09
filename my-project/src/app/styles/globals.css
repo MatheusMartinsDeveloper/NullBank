@@ -52,12 +52,14 @@
     transform: translateX(-50%);
 }
 
-.p-menubar {
-    display: flex ;
-    align-items: center;
+.p-menubar-root-list {
+    @apply flex gap-10 h-full;
 }
 
-.p-menuitem-text {
-    color: #212529;
-    font: 400 normal 1em "Poppins";
+.p-submenu-list {
+    @apply bg-grayColorLight rounded-md shadow-2xl pl-5 pt-5 mt-5;
+}
+
+.p-submenu-list li {
+    @apply flex flex-col justify-start items-start w-[10em] h-[2.5em];
 }
