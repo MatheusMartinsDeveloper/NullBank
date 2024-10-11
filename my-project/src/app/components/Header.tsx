@@ -64,13 +64,14 @@ export default function Header() {
     return (
         <header className="flex justify-around items-center w-full">
             <Menubar 
+                data-aos="fade-down"
                 model={items} 
                 start={title} 
                 submenuIcon={<FaArrowDown size={13} className="transition-all delay-75 ml-4 group-hover:translate-y-1" />}
                 className="flex justify-center items-center gap-10 bg-backgroundColor py-6 w-1/2"
             />
             <div className="flex justify-center items-center bg-primaryColorMain py-6 w-[50%]">
-                <Link className="bg-grayColorLight rounded-lg py-2 px-7 delay-75 transition-all hover:delay-75 hover:ease-in-out hover:scale-[110%]" href={`#`}>
+                <Link className="bg-grayColorLight rounded-lg py-2 px-7 delay-75 transition-all hover:delay-75 hover:ease-in-out hover:scale-[110%]" href={`#`} data-aos="fade-down">
                     <span className="text-base text-transparent uppercase font-Poppins font-medium bg-gradient bg-clip-text">Baixe o app</span>
                 </Link>
             </div>

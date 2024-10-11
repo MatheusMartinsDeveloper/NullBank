@@ -5,7 +5,7 @@ type CardSectionAppProps = {
 
 export default function CardSectionApp({ icon }: CardSectionAppProps) {
     return (
-        <div className="flex gap-4 w-full h-[5em]">
+        <div className="flex gap-4 w-full h-[5em]" data-aos="fade-up">
             <div className="flex justify-center items-center bg-primaryColorLight rounded-2xl w-[15%] h-full transition-all delay-75 hover:delay-75 hover:scale-[110%]">
                 {icon}
             </div>

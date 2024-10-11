@@ -15,7 +15,7 @@ export default function AccordionFAQ() {
     };
 
     return (
-        <Accordion activeIndex={activeIndex} onTabChange={handleActiveIndex} onTabClose={handleActiveIndex} expandIcon collapseIcon className="space-y-10 w-full">
+        <Accordion activeIndex={activeIndex} onTabChange={handleActiveIndex} onTabClose={handleActiveIndex} expandIcon collapseIcon className="space-y-10 w-full" data-aos="fade-up">
             <AccordionTab contentClassName="border-b-[1.5px] border-primaryColorMain"
             header={
                 <div className="flex justify-between items-center px-5 pb-5 w-full group">

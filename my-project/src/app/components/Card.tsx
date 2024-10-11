@@ -6,7 +6,7 @@ type AdvantagesProps = {
 
 export default function Advantages({ icon, advantage }: AdvantagesProps) {
     return (
-        <div className="flex gap-4 w-[100%]">
+        <div className="flex gap-4 w-[100%]" data-aos="fade-up">
             <div className="flex justify-center items-center bg-primaryColorLight rounded-2xl w-[15%] transition-all delay-75 hover:delay-75 hover:scale-[110%]">
                 {icon}
             </div>

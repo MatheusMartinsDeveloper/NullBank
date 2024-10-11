@@ -5,7 +5,7 @@ import { FaGooglePlay } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <footer className="flex justify-center items-center gap-10 bg-primaryColorMain w-full h-[45vh]">
+        <footer className="flex justify-center items-center gap-10 bg-primaryColorDark w-full h-[45vh]">
             <div className="flex justify-around w-[50%]">
                 <h1 className="text-grayColorLight text-4xl font-Poppins font-semibold">NullBank</h1>
                 <div className="flex justify-around w-full">

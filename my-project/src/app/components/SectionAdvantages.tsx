@@ -11,8 +11,8 @@ export default function SectionAdvantages() {
         <section className="relative flex justify-around bg-backgroundColor w-full h-[95vh]">
             <div className="flex flex-col gap-10">
                 <div>
-                    <span className="text-primaryColorMain text-base font-Poppins font-bold tracking-widest">vantagens</span>
-                    <h1 className="text-grayColorExtra text-4xl font-Poppins font-semibold">Quais as vantagens de <br /> usar NullBank? </h1>
+                    <span className="text-primaryColorMain text-base font-Poppins font-bold tracking-widest" data-aos="fade-up">vantagens</span>
+                    <h1 className="text-grayColorExtra text-4xl font-Poppins font-semibold" data-aos="fade-up">Quais as vantagens de <br /> usar NullBank? </h1>
                 </div>
                 <div className="grid grid-cols-3 place-items-end gap-10">
                     <div className="space-y-10">
@@ -55,7 +55,7 @@ export default function SectionAdvantages() {
             </div>
             <div>
                 <div>
-                    <h1 className="text-primaryColorMain text-[15em] font-Poppins font-bold absolute left-[50%] z-50">Null</h1>
+                    <h1 className="text-primaryColorMain text-[15em] font-Poppins font-bold absolute left-[50%] z-50" data-aos="fade-right">Null</h1>
                 </div>
             </div>
         </section>
