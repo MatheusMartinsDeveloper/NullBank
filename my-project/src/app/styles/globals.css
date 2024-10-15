@@ -63,3 +63,13 @@
 .p-submenu-list li {
     @apply flex flex-col justify-start items-start w-[10em] h-[2.5em];
 }
+
+@media (min-width: 368px) and (max-width: 768px) {
+    .swiper-button-prev {
+        margin-left: 0;
+    }
+
+    .swiper-button-next {
+        margin-right: 0;
+    }
+}

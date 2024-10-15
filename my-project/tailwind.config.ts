@@ -8,6 +8,11 @@ const config: Config = {
   ],
   important: true,
   theme: {
+    screens: {
+      "desktop": {"min": "1024px"},
+      "tablet": {"min": "768px", "max": "1024px"},
+      "mobile": {"min": "368px", "max": "768px"}
+    },
     extend: {
       animation: {
         "bounce-y": "bounceY 10s infinite",

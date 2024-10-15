@@ -5,10 +5,10 @@ import { TbPercentage } from "react-icons/tb";
 
 export default function SectionCard() {
     return (
-        <section className="relative flex justify-around items-center bg-backgroundColor w-full h-[90vh]">
-            <div className="flex flex-col items-start gap-5">
+        <section className="relative flex justify-around items-center bg-backgroundColor w-full h-[90vh] mobile:flex-col mobile:h-screen">
+            <div className="flex flex-col items-start gap-5 mobile:justify-center mobile:items-center">
                 <span className="text-primaryColorMain text-base font-Poppins font-bold tracking-widest" data-aos="fade-up">cartões</span>
-                <h1 className="text-grayColorExtra text-4xl font-Poppins font-semibold" data-aos="fade-up">Descubra as vantagens <br /> dos nossos Cartões </h1>
+                <h1 className="text-grayColorExtra text-4xl font-Poppins font-semibold mobile:text-2xl mobile:text-center" data-aos="fade-up">Descubra as vantagens <br /> dos nossos Cartões </h1>
                 <Card 
                     icon={<FaGift size={40} className="text-primaryColorMain" />}
                     advantage="Recompensas"
@@ -23,8 +23,8 @@ export default function SectionCard() {
                 />
             </div>
             <div>
-                <div data-aos="fade-up" className="absolute top-[30%] left-[70%] rotate-[25deg] z-50 animate-bounceY-Card block bg-gradient rounded-lg w-[15em] h-[10em]"></div>
-                <div data-aos="fade-up" className="absolute top-[50%] left-[70%] rotate-[-25deg] z-0 animate-bounceY-CardSecond block bg-gradient rounded-lg w-[15em] h-[10em]"></div>
+                <div data-aos="fade-up" className="absolute top-[30%] left-[70%] rotate-[25deg] z-50 animate-bounceY-Card block bg-gradient rounded-lg w-[15em] h-[10em] mobile:top-[70%] mobile:left-20"></div>
+                <div data-aos="fade-up" className="absolute top-[50%] left-[70%] rotate-[-25deg] z-0 animate-bounceY-CardSecond block bg-gradient rounded-lg w-[15em] h-[10em] mobile:top-[75%] mobile:left-20"></div>
             </div>
         </section>
     )

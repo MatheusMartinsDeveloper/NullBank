@@ -8,7 +8,7 @@ import SectionFAQ from "./components/SectionFAQ";
 
 export default function Home() {
   return (
-    <main className="w-full">
+    <main className="w-full mobile:overflow-hidden">
       <SectionHero />
       <SectionCard />
       <SectionApp />

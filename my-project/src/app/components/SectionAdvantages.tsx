@@ -8,13 +8,13 @@ import { FaUserTie } from "react-icons/fa";
 
 export default function SectionAdvantages() {
     return (
-        <section className="relative flex justify-around bg-backgroundColor w-full h-[95vh]">
-            <div className="flex flex-col gap-10">
-                <div>
-                    <span className="text-primaryColorMain text-base font-Poppins font-bold tracking-widest" data-aos="fade-up">vantagens</span>
-                    <h1 className="text-grayColorExtra text-4xl font-Poppins font-semibold" data-aos="fade-up">Quais as vantagens de <br /> usar NullBank? </h1>
+        <section className="relative flex justify-around bg-backgroundColor w-full h-[95vh] mobile:flex-col mobile:items-center mobile:pt-20 mobile:h-auto">
+            <div className="flex flex-col gap-10 mobile:justify-center mobile:items-center">
+                <div className="mobile:text-center">
+                    <span className="text-primaryColorMain text-base font-Poppins font-bold tracking-widest mobile:text-center" data-aos="fade-up">vantagens</span>
+                    <h1 className="text-grayColorExtra text-4xl font-Poppins font-semibold mobile:text-2xl mobile:text-center" data-aos="fade-up">Quais as vantagens de <br /> usar NullBank? </h1>
                 </div>
-                <div className="grid grid-cols-3 place-items-end gap-10">
+                <div className="grid grid-cols-3 place-items-end gap-10 mobile:grid-cols-1">
                     <div className="space-y-10">
                         <CardAdvantages
                             icon={<FaPix size={40} className="text-primaryColorMain" />}
@@ -55,7 +55,7 @@ export default function SectionAdvantages() {
             </div>
             <div>
                 <div>
-                    <h1 className="text-primaryColorMain text-[15em] font-Poppins font-bold absolute left-[50%] z-50" data-aos="fade-right">Null</h1>
+                    <h1 className="text-primaryColorMain text-[15em] font-Poppins font-bold absolute left-[50%] z-50 mobile:hidden" data-aos="fade-right">Null</h1>
                 </div>
             </div>
         </section>
