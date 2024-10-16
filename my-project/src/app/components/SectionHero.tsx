@@ -17,7 +17,7 @@ export default function SectionHero() {
                     </Link>
                 </div>
             </div>
-            <div className="relative flex justify-center items-center bg-primaryColorMain w-full h-full mobile:bg-backgroundColor">
+            <div className="relative flex justify-center items-center bg-primaryColorDark w-full h-full mobile:bg-backgroundColor">
                 <div>
                     <Image className="absolute top-56 left-36 z-40 animate-bounce-y mobile:top-0 mobile:left-20 mobile:w-[60%]" src={CardFront} alt="Imagem Cartão" quality={100} />
                     <Image className="absolute top-80 left-[25%] z-0 animate-bounce-x mobile:top-24 mobile:left-20 mobile:w-[60%]" src={CardBack} alt="Imagem Cartão" quality={100} />
